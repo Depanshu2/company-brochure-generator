@@ -33,7 +33,7 @@ It scrapes a company’s website to extract relevant information (like *About Us
 1. **Extracts all links** from a company’s homepage using `scraper.py`
 2. **Filters relevant links** (About, Careers, etc.) using Groq LLM (`gpt-oss-120b`)
 3. **Scrapes content** from the selected pages
-4. **Generates brochure content** using LLM (`llama-3.1-8b-instant`)
+4. **Generates brochure content** using LLM 
 5. **Translates the brochure** into a target language (e.g., Hindi, Spanish, French, etc.)
 
 ---
@@ -53,7 +53,7 @@ Make sure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/company-brochure-generator.git
+https://github.com/Depanshu2/company-brochure-generator.git
 
 # Navigate to project folder
 cd company-brochure-generator
